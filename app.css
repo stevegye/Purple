@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&family=Oswald:wght@500&display=swap');
+
+
+body {
+  width: 100%;
+  background: rgba();
+  z-index: -10px;
+}
+
+.branded {
+  width: 4%;
+}
+
+#mainNavbar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  width: 100%;
+  padding: 0.3rem;
+  z-index: 10px;
+}
+
+.navbar-nav{
+  display: flex;
+  width: 40%;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+
+.nav-item{
+  list-style: none;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: 700;
+  font-size: 25px;
+  text-transform: capitalize;
+  font-family: 'Alegreya Sans', sans-serif;
+}
+
+.nav-item a:hover {
+  color: purple;
+}
+
+/*Main*/
+
+#purple {
+  position: relative;
+  background: url(./imge/purple1.jpg) no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+  z-index: -10px;
+  
+}
+
+/*Overlay text*/
+#purple .headline {
+  top: 0;
+  left: 0; 
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: rgba(230, 14, 201, 0.1)
+}
+
+ .style {
+  color: white;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  padding: 5rem 0;
+  line-height: 4rem;
+}
+
+#purple h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+#purple h2 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+.nita {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  color: purple;
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+
+
+#purple p {
+  font-family: 'Alegreya Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
+
+
+/*About us*/
+main {
+  z-index: -10px;
+}
+#about  {
+  margin-top: 5rem;
+  }
+  
+  #purple-store{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 20px;
+    justify-items: center;
+    align-items: center;
+    
+  }
+
+  .store {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+
+  #about .stores{
+    width: 60%;
+  } 
+  #about .storess{
+    
+    width: 60%;
+  } 
+  #about .storesss{
+     width: 60%;
+  }
+
+  /*second set of divs*/
+#four-store{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: auto;
+  grid-gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 5rem;
+}
+
+#about .shop {
+  width: 60%;
+} 
+
+#about .shopes{
+  width: 60%;
+} 
+
+#about .shopess{
+   width: 60%;
+}
+
+#about .s{
+  width: 64%;
+}
+
+.store {
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+/*third set of divs*/
+#last-store{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: auto;
+  grid-gap: 5px;
+  padding: 20px;
+  margin-top: 5rem;
+  
+}
+
+#about .nice{
+  width: 100%;
+}
+
+#about .cool{
+ width: 100%;
+}
+
+body .store{
+  mix-blend-mode: normal;
+}
+
+
+/*footer*/
+.section-footer {
+  
+  color: black;
+  padding: 0 2px 0 2px;
+  
+  height: 60vh;
+}
+
+
+
+.section-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 1rem;
+  margin-top: 3rem;
+  
+  
+}
+
+.box, .boby, .foxy, .lucky{
+  display: none;
+}
+.section-footer h3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #555;
+  display: block;
+  margin-bottom: 1rem;
+  text-transform: capitalize;
+  font-family: 'Oswald', sans-serif;
+}
+
+.section-footer ul{
+  list-style: none;
+  text-decoration: none;
+  
+}
+
+.section-footer ul li a, p, address {
+  
+  
+  color: #555;
+  font-family: 'Oswald', sans-serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 2em;
+  text-transform: initial;
+  
+}
+
+.section-footer a > i {
+  color: rgb(44, 9, 9);
+
+}
+
+ 
