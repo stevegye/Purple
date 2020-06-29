@@ -11,9 +11,8 @@
 
 
 body {
-  width: 100%;
+ max-width: 100vw;
   background: rgba();
-  z-index: -10px;
 }
 
 .branded {
@@ -122,9 +121,6 @@ body {
 
 
 /*About us*/
-main {
-  z-index: -10px;
-}
 #about  {
   margin-top: 5rem;
   }
@@ -222,7 +218,7 @@ body .store{
 
 
 
-.section-footer {
+#content {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   padding: 1rem;
@@ -234,10 +230,10 @@ body .store{
 .box, .boby, .foxy, .lucky{
   display: none;
 }
-.section-footer h3 {
-  font-size: 15px;
-  font-weight: bold;
-  color: #555;
+.section-footer h5 {
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
   display: block;
   margin-bottom: 1rem;
   text-transform: capitalize;
@@ -267,17 +263,44 @@ body .store{
 
 }
 
+#copy p{
+  padding: 1rem;
+  color: black;
+  text-transform:capitalize; 
+  
+ }
+
+ @media (max-width: 850px) {
+  #content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+    padding: 1rem;
+  }
+
+ .section footer h6{
+    display: inline-flex;
+    justify-content: center;
+    padding: 1rem 0;
+    color: black;
+    text-transform:capitalize; 
+    
+   }
+}
+
  
-@media screen and (max-width: 480px) and (min-width: 320px) {   
+@media (max-width: 480px) and (min-width: 320px) {   
   body {       
      display: block; 
-        
+      max-width: 100vw;  
  } 
 
-
+ .branded {
+   width: 10%;
+ }
 
  .navbar-nav{
-  
+  width: 100%;
  }
 
  #purple {
@@ -322,8 +345,21 @@ body .store{
  margin-top: 2rem;
 }
 
+
+
 #purple-store{
  margin: 1rem;
+}
+
+#about .stores{
+  width: 100%;
+} 
+#about .storess{
+  
+  width: 100%;
+} 
+#about .storesss{
+   width: 100%;
 }
 
 #four-store{
@@ -335,22 +371,23 @@ body .store{
  
 }
 
+
 #about .shop {
- width: 180px;
+ width: 40%;
  margin-top: 1rem;
 }
 
 #about .shopes{
- width: 180px;
+ width: 40%;
  margin-top: 1rem;
 }
 #about .shopess {
- width: 180px;
+ width: 40%;
  margin-top: 1rem;
 }
 
 #about .s{
- width: 196px;
+ width: 43.90%;
  margin-top: 1rem;
 }
 
@@ -361,18 +398,18 @@ body .store{
 }
 
 #about .nice{
- width: 374px;
+ width: 100%;
  margin-bottom: 2rem;
 }
 
 #about .cool{
- width: 374px;
+ width: 100%;
 }
 
-.section-footer {
+#content {
  display: flex;
  flex-direction: column;
- 
+ margin-bottom: 1rem;
 }
 
 .section-footer h5 {
@@ -418,9 +455,10 @@ body .store{
 }
 
 
-#copy {
- text-align: center;
- padding: 1rem 0;
+#copy p{
+ display: inline-block;
+ padding: 4rem 4rem 1rem 4rem;
+ margin-top: 3rem;
  color: black;
  text-transform:capitalize; 
  
@@ -428,5 +466,7 @@ body .store{
 
 
 }
+
+
 
 
