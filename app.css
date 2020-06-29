@@ -60,7 +60,6 @@ body {
   background: url(./imge/purple1.jpg) no-repeat center center/cover;
   width: 100%;
   height: 100vh;
-  z-index: -10px;
   
 }
 
@@ -269,3 +268,165 @@ body .store{
 }
 
  
+@media screen and (max-width: 480px) and (min-width: 320px) {   
+  body {       
+     display: block; 
+        
+ } 
+
+
+
+ .navbar-nav{
+  
+ }
+
+ #purple {
+   display: block;
+   position: relative;
+   background: url(imge/purple1.jpg) no-repeat center center/ cover;
+   width: 100%;
+   height: 100vh;
+ }
+ .style{
+   
+   margin: 0 auto;
+   width: 100%;
+   padding: 1rem 0;
+   line-height: 3rem;
+ }
+
+ #purple h1 {
+   font-size: 2.5rem;
+ }
+ 
+.nita {
+ color: purple;
+ font-size: 2rem;
+ letter-spacing: 0.1rem;
+}
+
+#purple h2 {
+ font-size: 2rem;
+ margin-top: 1rem;
+ text-transform: capitalize;
+}
+
+#purple p {
+ font-size: 1rem;
+ margin-top: 1rem;
+ text-transform: capitalize;
+}
+
+#about{
+ 
+ margin-top: 2rem;
+}
+
+#purple-store{
+ margin: 1rem;
+}
+
+#four-store{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ margin-top: 2rem;
+ 
+}
+
+#about .shop {
+ width: 180px;
+ margin-top: 1rem;
+}
+
+#about .shopes{
+ width: 180px;
+ margin-top: 1rem;
+}
+#about .shopess {
+ width: 180px;
+ margin-top: 1rem;
+}
+
+#about .s{
+ width: 196px;
+ margin-top: 1rem;
+}
+
+#last-store{
+ display: flex;
+ flex-direction: column;
+ margin-top: 2rem;
+}
+
+#about .nice{
+ width: 374px;
+ margin-bottom: 2rem;
+}
+
+#about .cool{
+ width: 374px;
+}
+
+.section-footer {
+ display: flex;
+ flex-direction: column;
+ 
+}
+
+.section-footer h5 {
+ color: black;
+ font-weight: 400;
+ font-size: 20px;
+ display: block;
+ text-transform: capitalize;
+ font-family: 'Oswald', sans-serif;
+ 
+}
+
+.underline1, .underline2, .underline3 ul li {
+ color: #555;
+ font-family: 'Oswald', sans-serif;
+}
+
+
+.underline1, .underline2, .underline3 {
+ border-bottom: 1px solid black;
+ margin-top: 1rem;
+ padding: 1em;
+ display: block;
+}
+
+.underline4{
+ margin-top: 1rem;
+ padding: 1em;
+}
+
+
+.box, .boby, .foxy, .lucky{
+ display: block;
+}
+
+.box, .boby, .foxy, .lucky {
+ float: right;
+}
+
+
+.boxx, .bobyy, .foxyy, .luckyy {
+ display: none;
+}
+
+
+#copy {
+ text-align: center;
+ padding: 1rem 0;
+ color: black;
+ text-transform:capitalize; 
+ 
+}
+
+
+}
+
+
