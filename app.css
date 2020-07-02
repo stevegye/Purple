@@ -56,7 +56,7 @@ body {
 
 #purple {
   position: relative;
-  background: url(./imge/purple1.jpg) no-repeat center center/cover;
+  background: url(./imge/darrin.jpg) no-repeat center center/cover;
   width: 100%;
   height: 100vh;
   
@@ -69,7 +69,7 @@ body {
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: rgba(230, 14, 201, 0.1)
+  background-color: rgba(68, 26, 62, 0.1)
 }
 
  .style {
@@ -101,6 +101,14 @@ body {
   text-transform: capitalize;
 }
 
+ #purple p {
+  font-family: 'Alegreya Sans', sans-serif;
+  color: whitesmoke;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1rem;
+  text-transform: capitalize;
+}
 .nita {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
@@ -109,15 +117,6 @@ body {
   letter-spacing: 0.2rem;
 }
 
-
-
-#purple p {
-  font-family: 'Alegreya Sans', sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  margin-top: 1rem;
-  text-transform: capitalize;
-}
 
 
 /*About us*/
@@ -136,19 +135,20 @@ body {
   }
 
   .store {
-    width: 100%;
+   max-width: 100%;
     margin-bottom: 1.5rem;
   }
 
   #about .stores{
-    width: 60%;
+    width: 70%;
   } 
   #about .storess{
+    width: 70%;
     
-    width: 60%;
   } 
   #about .storesss{
-     width: 60%;
+     
+    width: 70%;
   }
 
   /*second set of divs*/
@@ -172,6 +172,7 @@ body {
 
 #about .shopess{
    width: 60%;
+   
 }
 
 #about .s{
